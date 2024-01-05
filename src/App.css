@@ -1,0 +1,174 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.temp {
+  color: white;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-heading {
+  font-size: 100px;
+  text-align: center;
+}
+
+.active-btn button {
+  background-color: white;
+  outline: none;
+  border: none;
+}
+
+.inactive-btn button {
+  background-color: gray;
+  outline: none;
+  border: none;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+.entities {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #272b33;
+  padding: 40px 0;
+}
+
+.entities-full {
+  width: 100%;
+  height: 100vh;
+  background-color: #272b33;
+  padding: 40px 0;
+}
+
+.entity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.entity-btns {
+  text-align: center;
+}
+
+.entity-btns button {
+  margin: 10px;
+}
+
+.entity img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.entity-details {
+  padding: 10px;
+  height: 230px;
+  background-color: #3c3e44;
+  color: white;
+  width: 350px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.entity h2 {
+  margin: 0;
+  font-weight: bold;
+}
+.entity h5 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.entity-details div {
+  margin-top: 20px;
+}
+
+.entity div p {
+  margin: 0;
+  color: #989896;
+}
+
+.entity div h4 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 600px 600px;
+  justify-content: center;
+}
+
+.grid-container-location,
+.grid-container-episode {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  justify-content: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.search button {
+  padding: 2px 5px;
+  margin-left: 10px;
+}
+
+.MuiSvgIcon-root {
+  color: white !important;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.MuiButtonBase-root {
+  color: white !important;
+}
+
+.center {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.spinner {
+  margin-top: 50px;
+}
+
+.temp-btn {
+  margin-top: 1000px;
+}
+
+.loading-text {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.arrowUp {
+  position: fixed !important;
+  bottom: 10px !important;
+  right: 20px !important;
+  font-size: 30px !important;
+}
