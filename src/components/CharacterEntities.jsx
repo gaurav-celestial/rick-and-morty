@@ -58,7 +58,6 @@ export default function CharacterEntities() {
               if (page.results.length === index + 1) {
                 return <CharacterEntity key={entity.id} char={obj} />; //for ref
               }
-
               return <CharacterEntity key={entity.id} char={obj} />;
             })
           )}
